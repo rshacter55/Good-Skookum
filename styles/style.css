@@ -32,8 +32,9 @@
     height: 100%;
 
     background: linear-gradient(to top, 
-        rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
-        rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
+        rgba(37, 124, 196, 0.4),  /* Steel Blue (darker blue) with 50% opacity */
+       /* rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
+      /*  rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
         rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
         rgba(37, 124, 196, 0.4)  /* Steel Blue (darker blue) with 50% opacity */
     );
