@@ -1,0 +1,37 @@
+.pd_top_30 { padding-top: 30px;}
+.pd_40 { padding: 40px;}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background-color: rgba(0, 0, 0, 0.5); Black overlay at 50% opacity */
+   background: rgba(255, 165, 0, 0.05); 
+}
+
+.sunrise-overlay {
+    background: linear-gradient(to top, 
+    #ffd700, /* Gold (yellow) */
+    #87ceeb, /* Bright yellow */
+  /*  #87ceeb  /* Light sky blue */
+  #4682b4  /* Steel Blue (darker blue) */
+    );
+}
+
+.h-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to top, 
+        rgba(199, 170, 3, 0.3),  /* Gold (yellow) with 70% opacity */
+        rgba(199, 170, 3, 0.1),  /* Gold (yellow) with 70% opacity */
+        rgba(199, 170, 3, 0),  /* Gold (yellow) with 70% opacity */
+        #93acd81a, /* Bright yellow with 60% opacity */
+        rgba(25, 63, 95, 0.7)  /* Steel Blue (darker blue) with 50% opacity */
+    );
+}
